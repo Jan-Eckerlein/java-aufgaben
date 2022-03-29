@@ -80,7 +80,7 @@ public class Functions {
 
     }
 
-    public static void ProdAdd() {
+    public static void prodAdd() {
         Input input = new Input();
 
         System.out.println("SumA");
@@ -95,5 +95,24 @@ public class Functions {
         }
 
         System.out.println("The Product is " + result + ".");
+    }
+
+    public static void quotSub() {
+        Input input = new Input();
+
+        System.out.println("QuotSub");
+        System.out.println("Calculation of quotient and remainder via subtraction");
+
+        int divident = input.readInt("divident: ");
+        int divisor = input.readInt("divisor: ");
+        int remainder = divident;
+        int i = 0;
+        for (; remainder > divisor; i++) {
+            remainder -= divisor;
+        }
+
+        System.out.println("Integer quotient: " + i);
+        System.out.println("Integer remainder: " + remainder);
+
     }
 }

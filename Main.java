@@ -4,6 +4,7 @@ public class Main {
         // Functions.sumA();
         // Functions.sumB();
         // Functions.sumC();
-        Functions.ProdAdd();
+        // Functions.prodAdd();
+        Functions.quotSub();
     }
 }
