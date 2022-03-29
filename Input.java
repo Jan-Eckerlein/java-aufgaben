@@ -12,4 +12,9 @@ public class Input {
         System.out.print(text);
         return scanner.nextInt();
     }
+
+    public float readFloat(String text) {
+        System.out.print(text);
+        return scanner.nextFloat();
+    }
 }
