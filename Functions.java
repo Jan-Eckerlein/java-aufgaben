@@ -79,4 +79,21 @@ public class Functions {
                 "After " + (--i) + " links, " + limit + " is reached. The sum is " + result + ".");
 
     }
+
+    public static void ProdAdd() {
+        Input input = new Input();
+
+        System.out.println("SumA");
+        System.out.println("Calculation of the product via addition");
+
+        int multiplicator = input.readInt("Multiplicator: ");
+        int multiplicant = input.readInt("Multiplicant: ");
+        int result = 0;
+
+        for (int i = 1; i <= multiplicator; i++) {
+            result += multiplicant;
+        }
+
+        System.out.println("The Product is " + result + ".");
+    }
 }

@@ -3,6 +3,7 @@ public class Main {
         // Functions.PrimeTest();
         // Functions.sumA();
         // Functions.sumB();
-        Functions.sumC();
+        // Functions.sumC();
+        Functions.ProdAdd();
     }
 }
