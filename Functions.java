@@ -115,4 +115,22 @@ public class Functions {
         System.out.println("Integer remainder: " + remainder);
 
     }
+
+    public static void divisor() {
+        Input input = new Input();
+
+        System.out.println("divisor");
+
+        int divident = input.readInt("Enter an Integer: ");
+
+       String divisors = "";
+        
+        for (int i = 1; i <= divident; i++) {
+            if ((divident % i) == 0) {
+                divisors += " " +  i;
+            }
+        }
+        System.out.println(divisors);
+
+    }
 }
